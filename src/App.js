@@ -20,6 +20,13 @@ import ReducerTwo from "./components/ReducerTwo";
 import ReducerThree from "./components/ReducerThree";
 import DataFetchingone from "./components/DataFetchingone";
 import DataFetchingTwo from "./components/DataFetchingTwo";
+import ParentComponent from "./CallBackHook/ParentComponent";
+import FocusInput from "./components/FocusInput";
+import ClassTimer from "./components/ClassTimer";
+import HookTimer from "./components/HookTimer";
+import DocTitleOne from "./CustomHook/DocTitleOne";
+import UserForm from "./CustomHook/UserForm";
+
 
 export const UserContext = React.createContext();
 export const UserContext1 = React.createContext(); //here we are create a usercontext variable and export it
@@ -50,7 +57,16 @@ function App() {
       {/* <ReducerTwo/> */}
       {/* <ReducerThree/> */}
       {/* <DataFetchingone/> */}
-      <DataFetchingTwo/>
+      {/* <DataFetchingTwo/> */}
+      {/* <ParentComponent/>  */}
+      {/* <FocusInput/> */}
+
+      {/* <ClassTimer/> */}
+      {/* <HookTimer/> */}
+      {/* <DocTitleOne/> */}
+
+       <UserForm/> 
+      
 
     </div>
   );
